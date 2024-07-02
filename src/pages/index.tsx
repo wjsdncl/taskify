@@ -9,6 +9,11 @@ function Home() {
     <main className='h-dvh max-h-[calc(100dvh-70px)] overflow-y-scroll bg-dark-500 text-white'>
       <Head>
         <title>Taskify</title>
+        <meta property='og:title' content='Taskify' />
+        <meta property='og:description' content='새로운 일정 관리 Taskify' />
+        <meta property='og:image' content='/public/images/logo_large.png' />
+        <meta property='og:url' content='https://5teamtaskify.netlify.app/' />
+        <meta property='og:type' content='website' />
       </Head>
       <div className='flex flex-col items-center'>
         <section className='flex max-w-[1200px] flex-col items-center pb-[180px] pt-24 md:pb-[180px]'>
