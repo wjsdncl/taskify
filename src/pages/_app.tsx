@@ -22,7 +22,6 @@ export default function App({ Component, pageProps }: AppProps) {
             <title>Taskify</title>
             <meta property='og:title' content='Taskify' />
             <meta property='og:description' content='새로운 일정 관리 Taskify' />
-            <meta property='og:image' content='/public/images/logo_large.png' />
             <meta property='og:url' content='https://5teamtaskify.netlify.app/' />
             <meta property='og:type' content='website' />
           </Head>
