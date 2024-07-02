@@ -11,6 +11,7 @@ const nextConfig = {
       },
     ],
   },
+  previewMode: true,
 };
 
 export default nextConfig;
